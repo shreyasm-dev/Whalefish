@@ -1,0 +1,24 @@
+{
+  "name": "whalefish",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint index.js",
+		"docs": "jsdoc -R README.md -d docs lib/*"
+  },
+  "author": "shreyasm-dev",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prefer-arrow": "1.2.2",
+    "jsdoc": "^3.6.6"
+  },
+  "dependencies": {
+    "is-valid-path": "^0.1.1",
+    "mime": "^2.5.0",
+    "minimatch": "^3.0.4"
+  }
+}
